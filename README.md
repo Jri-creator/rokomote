@@ -1,3 +1,6 @@
+![Ubuntu Term w code](https://github.com/Jri-creator/rokomote/blob/main/2024_12_07_12y_Kleki.png)
+
+
 # Rokomote: The Roku Remote in Linux Bash
 
 Rokomote is a simple, lightweight Bash-based CLI tool that allows you to
