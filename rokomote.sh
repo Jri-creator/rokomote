@@ -40,20 +40,20 @@ send_text() {
     done
 }
 
-# Function to map keys to Roku commands
 key_to_command() {
     case "$1" in
         $'\x1b[A') echo "Up" ;;       # Arrow up
         $'\x1b[B') echo "Down" ;;     # Arrow down
         $'\x1b[C') echo "Right" ;;    # Arrow right
         $'\x1b[D') echo "Left" ;;     # Arrow left
-        $'\x7f') echo "Back" ;;       # Backspace key
-        '.') echo "Home" ;;           # Period for Home
+        $'\x7f') echo "Home" ;;       # Backspace key for Home
+        '.') echo "Back" ;;           # Period for Back
+        ',') echo "Options" ;;        # Comma for Options
         '/') echo "Select" ;;         # Slash for OK
         '-') echo "VolumeDown" ;;     # Volume down
         '=') echo "VolumeUp" ;;       # Volume up
-        $'\x27') echo "TEXT_MODE" ;;  # Single quote for text mode
-        'p') echo "Power" ;;          # P key for Power menu
+        "'") echo "TEXT_MODE" ;;      # Single quote for text mode
+        'p') echo "POWER_MODE" ;;     # Power prompt
         $'\x1b') echo "EXIT" ;;       # Esc key exits
         *) echo "" ;;                 # Invalid key
     esac
@@ -72,16 +72,19 @@ fi
 selected_device="${devices[$((choice - 1))]}"
 roku_ip="${selected_device#*|}"
 
+clear
+
 echo "Connected to ${selected_device%%|*} at $roku_ip."
 echo "Control instructions:"
 echo "  Arrow keys: navigation"
 echo "  /: OK (Select)"
-echo "  .: Home"
-echo "  Backspace: Back"
+echo "  Backspace: Home"
+echo "  .: Back"
 echo "  -: Volume Down"
 echo "  =: Volume Up"
 echo "  ': Text mode (type and press Enter)"
 echo "  P: Power menu (toggle power state)"
+echo "  ,: Roku Options"
 echo "  Esc: Exit the script"
 
 # Raw input mode for listening to keypresses
@@ -121,6 +124,21 @@ while :; do
                 read text
                 send_text "$roku_ip" "$text"
                 stty -echo -icanon
+                # Clear the terminal and show controls again
+                clear
+                echo "Connected to ${selected_device%%|*} at $roku_ip."
+                echo
+                echo "Control instructions:"
+                echo "  Arrow keys: navigation"
+                echo "  /: OK (Select)"
+                echo "  .: Back"
+                echo "  Backspace: Home"
+                echo "  ,: Options"
+                echo "  -: Volume Down"
+                echo "  =: Volume Up"
+                echo "  p: Power mode (prompt)"
+                echo "  ': Text mode (type and press Enter)"
+                echo "  Esc: Exit the script"
             elif [[ "$command" == "Power" ]]; then
                 echo -n "Power off/on device? (y/n): "
                 stty echo icanon
@@ -147,4 +165,3 @@ done
 
 # Restore terminal to normal mode
 stty sane
-
