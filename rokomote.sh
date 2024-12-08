@@ -48,12 +48,12 @@ key_to_command() {
         $'\x1b[D') echo "Left" ;;     # Arrow left
         $'\x7f') echo "Home" ;;       # Backspace key for Home
         '.') echo "Back" ;;           # Period for Back
-        ',') echo "Options" ;;        # Comma for Options
+        ',') echo "Info" ;;        # Comma for Options
         '/') echo "Select" ;;         # Slash for OK
         '-') echo "VolumeDown" ;;     # Volume down
         '=') echo "VolumeUp" ;;       # Volume up
         "'") echo "TEXT_MODE" ;;      # Single quote for text mode
-        'p') echo "POWER_MODE" ;;     # Power prompt
+        'p') echo "Power" ;;          # 'P' for Power menu (fixed)
         $'\x1b') echo "EXIT" ;;       # Esc key exits
         *) echo "" ;;                 # Invalid key
     esac
