@@ -41,7 +41,7 @@ Before using Rokomote, ensure the following:
 ## How to Use Rokomote
 
 1.  Clone the repository
-  - `git clone https://github.com/<your-username>/rokomote.git`
+  - `git clone https://github.com/jri-creator/rokomote.git`
   - `cd rokomote`
 2.  Make the script executable
    - `chmod +x rokomote.sh`
