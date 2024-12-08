@@ -34,17 +34,21 @@ a quick, command-line alternative to a physical remote or mobile app.
 Before using Rokomote, ensure the following:
 
 -   Your Roku device and Linux machine are on the same local network.
--   *curl* and *nmap* are installed on your system.
+-   `curl` and `nmap` are installed on your system.
+    - `sudo snap install curl && sudo apt install nmap`  
 -   Your terminal supports raw input handling for keypress detection.
 
 ## How to Use Rokomote
 
 1.  Clone the repository
+  - `git clone https://github.com/<your-username>/rokomote.git`
+  - `cd rokomote`
 2.  Make the script executable
-3.  (Optional) Move the script to a directory in your *PATH* for easier
+   - `chmod +x rokomote.sh`
+3.  (Optional) Move the script to a directory in your `PATH` for easier
     use
-
--   -   Now you can run the program simply by typing *rokomote* in any
+    - `sudo mv rokomote.sh /usr/local/bin/rokomote`
+    -    -    Now you can run the program simply by typing `rokomote` in any
         terminal.
 
 4. Run the script
@@ -57,13 +61,13 @@ Before using Rokomote, ensure the following:
 
         -   **Arrow keys**: Navigation (Up, Down, Left, Right)
         -   **Backspace**: Back
-        -   *****/*****: OK (Select)
-        -   *****.*****: Home
-        -   *****-*****: Volume Down
-        -   *****=*****: Volume Up
-        -   *****p*****: Power on/off prompt
-        -   *****\'*****: Text mode (type input and press Enter)
-        -   *****Esc*****: Exit the script
+        -   ****/****: OK (Select)
+        -   ****. (Period)****: Home
+        -   ****- (Minus)****: Volume Down
+        -   ****= (Equals)****: Volume Up
+        -   ****p****: Power on/off prompt
+        -   ****' (Apostrophe)****: Text mode (type input and press Enter)
+        -   ****Esc****: Exit the script
 
 2.  Enjoy controlling your Roku!
 
