@@ -60,13 +60,14 @@ Before using Rokomote, ensure the following:
     -   Use the following key mappings to control your Roku:
 
         -   **Arrow keys**: Navigation (Up, Down, Left, Right)
-        -   **Backspace**: Back
+        -   **Backspace**: Home
         -   ****/****: OK (Select)
-        -   ****. (Period)****: Home
+        -   ****. (Period)****: Backspace
         -   ****- (Minus)****: Volume Down
         -   ****= (Equals)****: Volume Up
         -   ****p****: Power on/off prompt
         -   ****' (Apostrophe)****: Text mode (type input and press Enter)
+        -   ****, (Comma)****: Roku Options
         -   ****Esc****: Exit the script
 
 2.  Enjoy controlling your Roku!
