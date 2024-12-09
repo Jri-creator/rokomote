@@ -8,12 +8,20 @@ control your Roku device from a Linux terminal. With features like
 navigation, text input, volume control, and power management, Rokomote
 transforms your terminal into a Roku remote.
 
+## Why Rokomote was Created
+
+Rokomote was created as an easier solution for users who are either afraid
+of the terminal or for terminal users like me who would prefer performing
+terminal actions an easier way. roku-cli was built for terminal users who 
+wouldn't mind doing things the hard way. Rokomote was built as an alternative,
+easier solution.
+
 ## Description
 
 Rokomote is Free and Open Source Software (FOSS), designed as a
-simple and accessible solution for Roku users. It scans your local
+simple, easy, and accessible solution for Roku users. It scans your local
 network for Roku devices, lets you select one, and provides intuitive
-key mappings to control the device. It\'s ideal for Linux users who want
+key mappings to control the device. It's ideal for Linux users who want
 a quick, command-line alternative to a physical remote or mobile app.
 
 ## Notes
@@ -33,7 +41,7 @@ a quick, command-line alternative to a physical remote or mobile app.
 -   **Roku Compatibility:** This tool has only been tested with Roku
     TVs. If you find that it does not work with your Roku device, please
     report the issue.
--   **Contributions Welcome:** If you\'re able to fix issues or improve
+-   **Contributions Welcome:** If you're able to fix issues or improve
     the tool, feel free to submit a pull request.
 
 ## Prerequisites
@@ -77,7 +85,7 @@ Before using Rokomote, ensure the following:
         -   ****, (Comma)****: Roku Options
         -   ****Esc****: Exit the script
 
-2.  Enjoy controlling your Roku!
+2.  Enjoy controlling your Roku, the easy way!
 
 ## Acknowledgments
 
