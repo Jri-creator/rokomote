@@ -10,7 +10,7 @@ transforms your terminal into a Roku remote.
 
 ## Description
 
-Rokomote is Free and Open Source Software (FOSS), designed to be a
+Rokomote is Free and Open Source Software (FOSS), designed as a
 simple and accessible solution for Roku users. It scans your local
 network for Roku devices, lets you select one, and provides intuitive
 key mappings to control the device. It\'s ideal for Linux users who want
@@ -18,11 +18,15 @@ a quick, command-line alternative to a physical remote or mobile app.
 
 ## Notes
 
+-   **Rokomote versions may be different:** Rokomote will maintain up to 3
+    versions of its software to avoid code loss and to also allow users
+    to test out various versions, just in case one doesn't work.
+    It is recommended that you use the latest version of Rokomote.sh
+
 -   **Tested on an Acer C720 Chromebook:** This project was developed
-    and tested using an Acer C720 Chromebook, so the default keyboard
-    layout may not be optimal for your setup. If you don\'t like the
-    layout, you can easily edit the Bash file to assign your preferred
-    keys.
+    and tested using an Acer C720 Chromebook running Ubuntu, so the default
+    keyboard layout may not be optimal for your setup. If you don't like the
+    layout, you can easily edit the Bash file to assign your preferred keys.
 -   **In Development:** This project is still in development. If you
     encounter any bugs, please report them in the **Issues** section of
     the repository.
