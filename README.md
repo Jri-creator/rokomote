@@ -12,8 +12,8 @@ transforms your terminal into a Roku remote.
 
 Rokomote was created as an easier solution for users who are either afraid
 of the terminal or for terminal users like me who would prefer performing
-terminal actions an easier way. roku-cli was built for terminal users who 
-wouldn't mind doing things the hard way. Rokomote was built as an alternative,
+terminal actions an easier way. roku-cli was built similar to this one, but
+requires more dependencies and actions. Rokomote was built as an alternative,
 easier solution.
 
 ## Description
