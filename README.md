@@ -10,11 +10,12 @@ transforms your terminal into a Roku remote.
 
 ## Why Rokomote was Created
 
-Rokomote was created as an easier solution for users who are either afraid
-of the terminal or for terminal users like me who would prefer performing
-terminal actions an easier way. roku-cli was built similarly to this one but
-requires more dependencies and actions. Rokomote was built as an alternative,
-easier solution.
+So, I lost my Roku Remote. Those remotes are so small, they are hard to find.
+I was holding my UbuntuBook, thinking about how I could use the terminal to 
+control my Roku, and how cool that would be. I searched for anything linked to
+Roku Remotes and the command line, and couldn't find anything. So after some
+research, I chose to make my own. After all, some coding would help me in the 
+future.
 
 ## Description
 
