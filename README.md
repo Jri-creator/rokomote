@@ -63,7 +63,8 @@ Before using Rokomote, ensure the following:
    - `chmod +x rokomote.sh`
 3.  (Optional) Move the script to a directory in your `PATH` for easier
     use
-    - `sudo mv rokomote.sh /usr/local/bin/rokomote`
+    - Rename rokomote.sh to rokomote (no ending)
+    - `sudo mv rokomote /usr/local/bin/rokomote`
     -    -    Now you can run the program simply by typing `rokomote` in any
         terminal.
 
