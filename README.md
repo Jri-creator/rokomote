@@ -89,6 +89,11 @@ Before using Rokomote, ensure the following:
 
 2.  Enjoy controlling your Roku, the easy way!
 
+## Progress
+I am building a GUI version based on Zenity for those who don't like keyboard navigation
+or are stuck with a mouse. This development is slow, but once it is ready I may release
+it into a new repository.
+
 ## Acknowledgments
 
 Rokomote is Free and Open Source Software, developed with assistance
