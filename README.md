@@ -36,8 +36,8 @@ a quick, command-line alternative to a physical remote or mobile app.
     and tested using an Acer C720 Chromebook running Ubuntu, so the default
     keyboard layout may not be optimal for your setup. If you don't like the
     layout, you can easily edit the Bash file to assign your preferred keys.
--   **In Development:** This project is still in development. If you
-    encounter any bugs, please report them in the **Issues** section of
+-   **Not in Development:** This project is not being further developed right now.
+-   If you encounter any bugs, please report them in the **Issues** section of
     the repository.
 -   **Roku Compatibility:** This tool has only been tested with Roku
     TVs. If you find that it does not work with your Roku device, please
@@ -89,10 +89,10 @@ Before using Rokomote, ensure the following:
 
 2.  Enjoy controlling your Roku, the easy way!
 
-## Progress
+<!--## Progress
 I am building a GUI version based on Zenity for those who don't like keyboard navigation
 or are stuck with a mouse. This development is slow, but once it is ready I may release
-it into a new repository.
+it into a new repository.-->
 
 ## Acknowledgments
 
